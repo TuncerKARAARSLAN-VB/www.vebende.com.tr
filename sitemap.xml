@@ -2,12 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vebende.com.tr/</loc>
-    <lastmod>2024-11-28</lastmod>
-    <priority>1.00</priority>
+    <lastmod>2024-12-02T07:00:00+00:00</lastmod>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vebende.com.tr/trainer-point-with-tuncer-erdem-with-content.pdf</loc>
+    <lastmod>2024-12-02T07:00:00+00:00</lastmod>
     <priority>1.0</priority>
+    <changefreq>daily</changefreq>
   </url>
-  <!-- Add other links here -->
 </urlset>

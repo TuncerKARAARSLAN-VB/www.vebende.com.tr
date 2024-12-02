@@ -1,4 +1,5 @@
 User-agent: *
+Crawl-delay: 86400
 Disallow: 
 
 Sitemap: https://www.vebende.com.tr/sitemap.xml
