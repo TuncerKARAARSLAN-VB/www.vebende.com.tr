@@ -393,6 +393,79 @@
                             Ürün teslimatlarında sizin bildirdiğiniz repolar üzerinden teslimatlar yapıyoruz. Teknik
                             döküman, eğitim, kullanım kitapları ve destek araçları hazırlıyoruz. </p>
                     </li>
+                    <li>
+                        <h3 class="fw-bold display-6"># Askeri Standartlarda Kubernetes Hizmetlerimiz </h3>
+
+                        <p>Askeri standartlarda Kubernetes hizmetimiz; yüksek güvenlik, erişilebilirlik, ölçeklenebilirlik ve dayanıklılık gereksinimlerini karşılayan bir altyapının tasarımını, dokümantasyonunu ve uygulamasını içerir. Ayrıca, ekip eğitimleri ve sürekli destekle çözümümüzü daha da güçlendiriyoruz. Gelecekteki güvenlik zaayifetlerine karşı sürekli korumaya devam ediyoruz.</p>
+
+                        <h4 class="fs-3">1. Güvenlik Önlemleri</h4>
+                        <ul>
+                            <li><span class="fs-4">Ağ Güvenliği ve İzolasyonu:</span> Zero Trust mimarisi benimsenir. Ağ trafiği mikro segmentasyon ile ayrıştırılarak yalnızca gerekli hizmetlerin iletişim kurmasına izin verilir.</li>
+                            <li><span class="fs-4">Kimlik ve Erişim Yönetimi (IAM):</span> Role-based Access Control (RBAC) ile erişim hakları titizlikle yönetilir. Multi-Factor Authentication (MFA) entegrasyonu sağlanır.</li>
+                            <li><span class="fs-4">Veri Şifreleme:</span> Hareket halindeki veriler TLS ile, duran veriler ise ETCD üzerinden şifreli olarak saklanır.</li>
+                            <li><span class="fs-4">Güvenlik Politikaları:</span> Pod Security Policies (PSP), Network Policies ve Security Context yapılandırmaları ile Kubernetes kaynakları için kapsamlı güvenlik sağlanır.</li>
+                            <li><span class="fs-4">Denetim ve İzleme:</span> Kubernetes Audit Logs etkinleştirilir ve güvenlik olayları sürekli olarak izlenip alarm mekanizmalarıyla desteklenir.</li>
+                        </ul>
+                        
+
+                        <h4 class="fs-3">2. Yüksek Erişilebilirlik ve Dayanıklılık</h4>
+                        <ul>
+                            <li><span class="fs-4">Cluster Yedekliliği:</span> Multi-master ve multi-worker düğümleri, yüksek erişilebilirlik (HA) sağlamak amacıyla yedekli ve dengeli bir şekilde dağıtılır.</li>
+                            <li><span class="fs-4">Multi-Region ve Multi-Cluster Yapılandırması:</span> Kritik uygulamalar için birden fazla coğrafi bölgede yedekleme ve felaket kurtarma (Disaster Recovery) planları titizlikle tasarlanır.</li>
+                            <li><span class="fs-4">Yük Dengeleyici (Load Balancer):</span> İç ve dış yük dengeleme ihtiyaçlarını karşılamak için güvenilir ve ölçeklenebilir çözümler uygulanır.</li>
+                        </ul>
+                        
+
+                        <h4 class="fs-3">3. Standartlara Uygunluk</h4>
+                        <ul>
+                            <li><span class="fs-4">Askeri Standartlar:</span> NATO, STANAG ve yerel askeri standartlar (örneğin, Türkiye için MSB direktifleri) doğrultusunda kurulum ve yapılandırmalar gerçekleştirilir.</li>
+                            <li><span class="fs-4">Regülasyon Uyumluluğu:</span> Kişisel veriler veya askeri hassas veriler üzerinde çalışılması durumunda, GDPR, KVKK ve benzeri yasal düzenlemelere tam uyum sağlanır.</li>
+                        </ul>
+                        
+
+                        <h4 class="fs-3">4. İzleme ve Güncelleme</h4>
+                        <ul>
+                            <li><span class="fs-4">Güvenlik İzleme:</span> Zabbix, Prometheus ve Grafana gibi araçlar kullanılarak sistem performansı ve güvenlik açıkları sürekli olarak izlenir.</li>
+                            <li><span class="fs-4">Otomatik Güncellemeler:</span> Kubernetes bileşenleri ve konteyner imajları için güvenlik yamaları düzenli bir şekilde uygulanır.</li>
+                            <li><span class="fs-4">Kontrol ve Yönetim:</span> ArgoCD veya FluxCD gibi GitOps araçlarıyla yapılandırmalar etkin bir şekilde yönetilir.</li>
+                        </ul>
+                        
+
+                        <h4 class="fs-3">5. Altyapı Sertifikasyonları</h4>
+                        <ul>
+                            <li><span class="fs-4">Donanım Sertifikasyonu:</span> Kullanılan fiziksel sunucuların askeri standartlara uygun sertifikalara sahip olması sağlanır.</li>
+                            <li><span class="fs-4">Container Güvenliği:</span> Container imajları, Trivy veya Clair gibi araçlarla taranarak yalnızca güvenilir registrylerden yüklenir.</li>
+                        </ul>
+                        
+                        <h4 class="fs-3">6. Askeri Standartlarda İzleme Loglama ve Alarm</h4>
+                        <ul>
+                            <li><span class="fs-4">İzleme ve Alarm Tetikleme:</span> Prometheus + Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Fluentd/Fluent Bit</li>
+                            <li><span class="fs-4">Güvenlik:</span> OPA, Trivy, Clair, Pod Security Policies (PSP)</li>
+                            <li><span class="fs-4">Log İzleme ve Yönetim:</span> Zabbix, Auditd, Kubernetes Audit Logs, Syslog/Rsyslog</li>
+                            <li><span class="fs-4">GitOps ve Sürekli Dağıtım:</span> ArgoCD, FluxCD</li>
+                            <li><span class="fs-4">Yedeklilik ve HA:</span> Multi-master, Multi-worker yapı, Load Balancer, Multi-Region/Cluster</li>
+                            <li><span class="fs-4">Güvenlik ve Uyum:</span> HSM, GDPR/KVKK/Regülasyon Uyumu</li>
+                        </ul>
+                                               
+                        <h4 class="fs-3">6. Askeri Standartlarda Rancher ile Multi Worker Kubernetes </h4>
+                        <ul>
+
+                            <li><span class="fs-4">İzleme ve Alarm Tetikleme:</span> Prometheus + Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Fluentd/Fluent Bit</li>
+                            <li><span class="fs-4">Güvenlik:</span> OPA, Trivy, Clair, Pod Security Policies (PSP)</li>
+                            <li><span class="fs-4">Log İzleme ve Yönetim:</span> Zabbix, Auditd, Kubernetes Audit Logs, Syslog/Rsyslog</li>
+                            <li><span class="fs-4">GitOps ve Sürekli Dağıtım:</span> ArgoCD, FluxCD</li>
+                            <li><span class="fs-4">Yedeklilik ve HA:</span> Multi-master, Multi-worker yapı, Load Balancer, Multi-Region/Cluster</li>
+                            <li><span class="fs-4">Güvenlik ve Uyum:</span> HSM, GDPR/KVKK/Regülasyon Uyumu</li>
+
+                        </ul>
+
+                        <h4 class="fs-3">7. Eğitim ve Süreçler</h4>
+                        <ul>
+                            <li><span class="fs-4">Personel Eğitimi:</span> Sistemi yönetecek personel, askeri gereksinimlere uygun olarak Kubernetes ve güvenlik konularında kapsamlı bir eğitim alır.</li>
+                            <li><span class="fs-4">Dokümantasyon:</span> Yapılandırmalar, prosedürler ve güncellemeler eksiksiz ve detaylı bir şekilde dokümante edilir.</li>
+                        </ul>
+                        
+                    </li>
                 </ul>
             </div>
         </div>
@@ -406,8 +479,8 @@
             <div style="text-align: left;">
                 <ul>
                     <li>
-                        <h3 class="fw-bold display-6"># Kubernetes: Modern Altyapılarınız İçin Güçlü ve Kalıcı Çözümler
-                        </h3>
+                        <h3 class="fw-bold display-6"># Kubernetes: Modern Altyapılarınız İçin Güçlü ve Kalıcı Çözümler</h3>
+
                         <p>🔹 <span class="fw-bold">Kurumsal Kubernetes Kurulumlarında Güçlü Destek:</span>
                             Altyapınızı bir adım öteye taşımak için yanınızdayız! <span class="fw-bold">Kurumsal
                                 Kubernetes kurulumlarınızda her aşamada</span> size rehberlik ediyor, güvenli ve
