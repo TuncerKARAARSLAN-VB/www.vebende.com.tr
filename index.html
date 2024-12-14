@@ -169,7 +169,7 @@
             padding: 10px;
             background-color: #2575fc;
             border-radius: 5px;
-            text-align: right;
+            text-align: center;
             transition: all 0.3s ease;
         }
 
@@ -188,6 +188,12 @@
 
         .tag-cloud {
             font-size: xx-small;
+        }
+
+        .left-menu {
+            text-align: left;
+            padding-left: 50px;
+            list-style-type: disc;
         }
     </style>
 </head>
@@ -225,7 +231,7 @@
 
                         <h2 class="mt-5 mb-5">Sizinle çalışmak için sabırsızlanıyoruz. Lütfen bizimle <a
                                 href="https://www.linkedin.com/in/tuncerkaraarslan/" target="_blank">Linkedin</a>, <a
-                                href="mailto:tuncer.karaarslan@vebende.com">E-Posta</a> ya da <a
+                                href="mailto:iletisim@vebende.com">E-Posta</a> ya da <a
                                 href="https://wa.me/905425505704" target="_blank">WhatsApp</a> üzerinden iletişime
                             geçin.</h2>
 
@@ -292,13 +298,24 @@
                 <img src="./tech-point.jpg" alt="Tech point" class="img-fluid rounded desktop-img d-none d-md-block">
                 <img src="./tech-point-mobile.jpg" alt="Tech point"
                     class="img-fluid rounded mobile-img d-block d-md-none">
-                <p class="mt-3 text-center">Kurumsal Danışmanlık, Kurulum, Destek ve Eğitimler</p>
+                <p class="mt-3 text-center"><span class="fs-4">Askeri Standartlarda Kubernetes:</span> Kurumsal
+                    Danışmanlık, Kurulum, Destek, Eğitim</p>
             </div>
+
+            <ul class="left-menu fs-5">
+                <li><a href="#egitim-hizmetlerimiz">Eğitim Hizmetlerimiz</a></li>
+                <li><a href="#danismanlik-hizmetlerimiz">Danışmanlık Hizmetlerimiz</a></li>
+                <li><a href="#kontrat-hizmetlerimiz">Kontrat Hizmetlerimiz</a></li>
+                <li><a href="#yazilim-hizmetlerimiz">Yazılım Hizmetlerimiz</a></li>
+                <li><a href="#enerji-sektoru-hizmetlerimiz">Enerji Sektörü Hizmetlerimiz</a></li>
+                <li><a href="#askeri-standartlarda-kubernetes-hizmetlerimiz">Askeri Standartlarda Kubernetes
+                        Hizmetlerimiz</a></li>
+            </ul>
 
             <div style="text-align: left;">
                 <ul>
                     <li>
-                        <h3 class="fw-bold display-6"># Eğitim Hizmetlerimiz</h3>
+                        <h3 class="fw-bold display-6" id="egitim-hizmetlerimiz"># Eğitim Hizmetlerimiz</h3>
                         <p>Günümüzün yeni teknolojileri, mimarileri, kurulması gereken alt yapılar, yeni yazılım
                             geliştirme yöntemleri ... bunlar gibi çok
                             fazla
@@ -308,29 +325,40 @@
                             geliştirme
                             süreçleri, devsecops süreçleri ve sürekli eğitimler ile şirketlerinizi güçlendirmeniz
                             gerekiyor.
-                            Eğitimlerimiz ile bu süreçte sizlerin yanındayız.</p>
+                            Eğitimlerimiz ve danışmanlık hizmetlerimiz ile bu süreçlerinizde her zaman sizlerin
+                            yanındayız.</p>
                         <p>
-                            Yeni dünya ve artan etkileşimli web ve mobile projeler. Beraberinde gelen yüksek trafik ve
-                            yönetilmesi gereken alt yapı mimarilerinin optimizasyonu ve verimlilik.
+                            Günümüzden artan etkileşimli web ve mobil projeler, beraberinde ortaya çıkan yüksek
+                            trafik ve
+                            yönetilmesi gereken alt yapı mimarilerinin optimizasyonu ve verimlilik. Ayrıca ortaya çıkan
+                            siber güvenlik sorunlarıda dikkate alınması gereken en önemli konu. Peki herşeyi doğru
+                            yaptığınıza emin misiniz? Sadece denetimler için checklistlerini birlikte çalışarak
+                            üretmenizi sağlayabilir, sistemlerinizin kontrollerini sağlayabiliriz. Periyodik olarak
+                            güvenlik kontrollerini sağlayabilir, check listlerinizi güncellemenize yardımcı olabiliriz.
+                            Dikkatlerden kaçan noktalarda gol yemekten kurtulursunuz. Dikkatli olun, gol yediğinizde
+                            telafisi mümkün olmayacak zararlar ortaya çıkabilir.
+                        </p>
+                        <p>
                             Kubernetes mimarisi sayesinde kurumunuzun tüm kaynaklarını tek bir mimari üzerinde
                             yönetebilmenizi sağlıyoruz. Red hat, Kubernetes ve Openshift, DevSecOps ve diğer tüm araçlar
                             birbirleriyle uyum içinde çalışacak hale getiriliyor.
-                            Alt yapınızdaki tüm kaynakları (disk, cpu, ram, network, gelen talep yönetimi ...)
+                            Alt yapınızdaki tüm kaynakları (disk, cpu, ram, network, gelen talep yönetimi, hatta
+                            kuyruklarınızda biriken iş yüküne göre daha fazla consumer, ...)
                             ölçümleyebilmenizi ve yönetebilmenizi sağlayan bir mimari. Multi cluster, multi master,
                             multi worker, multi region ... ülkemizdeki kurumlarımızın artık sahip olması gereken
                             mimarilerdir.
                             Günümüzün ve gelecek yüzyılın Türkiyesi için sahip olmamız gereken alt yapı mimarilerini
                             bizimle gerçekleştirebilirsiniz. Biz her zaman sizin için hazır olacağız.
-                            Ekiplerinizi bu mimariyi yönetmeleri için hazırlayacağız. Kurulum destek ve güncellemeler,
-                            dökümantasyon ve eğitimler için biz hep yanınızda olacağız.
+                            Ekiplerinizi bu mimarileri yönetmeleri için hazırlayacağız. Kurulum, destek, güncellemeler,
+                            dokümantasyon ve eğitimler ile biz hep yanınızda olacağız.
                         </p>
 
                         <p>Hazırladığımız eğitimlerimiz sürekli güncellenmektedir. Eğitimlerimizi sizin kurumsal
                             logolarınız
                             ile
                             hazırlıyoruz. Eğitimlerden önce sizinle yaptığımız toplantılara göre eğitim içeriklerimiz ve
-                            senaryolarımız sizin şirketinize göre düzenleniyor.
-                            Eğitimlerimizi sizin ekipleriniz ile etkileşimli birlikte kod
+                            senaryolarımız sizin şirketinize göre düzenleniyoruz.
+                            Eğitimlerimizi sizin de ekipleriniz ile etkileşimli kod
                             yazarak ve
                             birlikte senaryolar üreterek işliyoruz.
                             <span class="fw-bold fs-4">360 derece bakış açısıyla eğitimler işleniyor. Hatalar ve
@@ -338,26 +366,57 @@
                                 kodlama, deneyim ... katılımcılar eğitimdeki ele alınan teknolojilerin her anını
                                 yaşıyorlar.</span>
                         </p>
+                        <p><span class="fw-bold fs-4">Enterprise Ölçekte Kubernetesi Kimler Kurmalı: </span> Bilişim
+                            sektöründe dikkatsizce davranılan bir konu! Minikube ya da hazır scriptler ile
+                            kubernetes kurarak development ve devops süreçlerini test amaçlı kullanmış deneyimli bilişim
+                            uzmanlarınız, aynı deneyimler ile enterprise ölçekte kubernetes kurarak kurumlarına büyük
+                            güvenlik zaafiyetleri verebilirler. Askeri standartlarda bir kubernetes nasıl kurulur,
+                            nelere dikkat edilir, dışarıdan alınan
+                            paketlerin güvenlik incelemeleri nasıl yapılır, güvenlik otomasyonu nasıl kurulur, zaten
+                            kullanımda olan ama deprecate olmuş, güvenlik sorunları tespit edilmiş paketler nasıl
+                            incelenenir, güvenlik müdahaleleri nasıl yapılır, acil müdahale anında neler yapılmalıdır,
+                            afet durumları için önceden yapılması gereken ve hazırlanılması gereken konular nelerdir.
+                            Loglar ve alarmlar nasıl aktifleştirilir, sürekli kaynaklar nasıl monitör edilir. İşte tam
+                            olarak bu ve benzeri konuları tartışarak etkileşimli ve katılımcı bir eğitim
+                            içeriği ile birlikte inceliyoruz. Sizlere dünya çapındaki bankaların, askeri kurumların ve
+                            nato gibi yüksek güvenlik gerektiren kurumlarda dikkate alınan analizleri masaya getiriyoruz
+                            ve birlikte tartışıyoruz. Kurulacak tüm sistemlerimizde her araç tek tek analiz ediliyor. Bu
+                            kadar detaylı bir eğitim ve danışmanlığını başka kimden alabilirsiniz ki. Doğru analiz
+                            edilmeyen ve yetkin bir ekip tarafından kurulmayan Kubernetes ise, problemler yumağı haline
+                            gelecektir. Tüm yatırımınızı yeniden
+                            kurmak zorunda kalabilirsiniz. Belki de o ana kadarki tüm üretimizinizde size büyük
+                            maliyetler getiremesine katlanarak.
+                        </p>
                         <p>
-                            Tüm eğitimlerimiz canlı ve eğitmenler ile birlikte yapılıyor. Uzaktan eğitim ve destek için
-                            tüm
-                            araçları
-                            eğitmenlerimiz sağlıyor.
-                            Tüm eğitimlerimiz iki farklı eğitim formatına uygun olarak hazırlanıyor.
-                            İki eğitim formatı arasındaki temel fark, kısa olan formatta eğitmen yazar, katılımcılar
-                            eğitmenle birlikte yazar.
-                            Uzun formatta tüm kodları katılımcılar yazar, eğitmen her bir katılımcı ile birlikte
-                            çalışır.
-                            Tam etkileşimli bol hands-on (uygulamalı çalışmalar) içeren
-                            canlı uzaktan eğitim.
+                            <span class="fs-5 fw-bold">Bizimle Kubernetes konusunda gönül rahatlığı ile
+                                çalışabilirsiniz. Sizinle planlama, eğitim, dokumantasyon, kurulum ve hands-on
+                                konularında çalışabiliriz. Dünyanın ileri gelen kurumları ile ilgili
+                                deneyimlerimizi gizlilik anlaşması ile birlikte incelemenize sunabilir ve
+                                çalışmalarımızı kısıtlı bir seviyede açabilir, belgeleyebiliriz.</span>
+                        </p>
+                        <p>
+                            Eğitimlerimiz canlı ve eğitmenler ile birlikte yapılıyor. Uzaktan eğitim ve destek için
+                            tüm araçları eğitmenlerimiz sağlıyor.
+                            Eğitimlerimiz iki farklı eğitim formatına uygun olarak hazırlanıyor.
+                            İki eğitim formatı arasındaki temel fark,
+
+                        <p>- Kısa olan formatta eğitmen konuyu anlatır ve kodları yazar, katılımcılar
+                            eğitmenle birlikte katılım sağlar.</p>
+
+                        <p>- Uzun formatta eğitmen konuyu anlatır ve senaryoyu ortaya koyar, her bir katılımcı kodu
+                            yazar, eğitmen onların makinelerindeki kodu grup önünde inceler ve birlikte çalışır. Son
+                            olarak eğitmen doğru senaryo kodlamasını yapar</p>
+
+                        Tam etkileşimli bol hands-on (uygulamalı çalışmalar) içeren
+                        canlı uzaktan eğitim.
                         </p>
                     </li>
                     <li>
-                        <h3 class="fw-bold display-6"># Danışmanlık Hizmetlerimiz</h3>
-                        <p>Yerinden ve uzaktan danışmanlık ve destek paketlerimiz. Yanlız değilsiniz, her an size destek
-                            oluyoruz. Her zaman yanınızdayız. Partneriniz olarak sizin yaşayabileceğiniz ya
-                            da
-                            yaşadığınız tüm sorunlarda yardımcı olmak için her zaman yanınızdayız.</p>
+                        <h3 class="fw-bold display-6" id="danismanlik-hizmetlerimiz"># Danışmanlık Hizmetlerimiz</h3>
+                        <p>Yerinden ve uzaktan danışmanlık ve destek paketlerimizi tercih edebilisiniz. Yanlız
+                            değilsiniz, her an size destek
+                            oluyoruz. Her zaman yanınızdayız. Partneriniz olarak sizin yaşayabileceğiniz her türlü
+                            sorunda yardımcı olmak için her zaman yanınızdayız.</p>
                         <p>Kuracağınız yeni teknolojilerde sizinle birlikte yerinde çalışmalar yapıyoruz. Aylarca
                             sizinle
                             birlikte mesai yapıyoruz. Sizinle kuruma giriyoruz, sizinle yemeğe çıkıyoruz, sizinle
@@ -366,105 +425,225 @@
                             çalışmaları
                             sizinle birlikte yapıyoruz.</p>
                         <p>
-                            Sürekli sizin için bizde arge yapıp deneyimlerimizi arttırıyor, sizin için çalışıyoruz.
+                            Sürekli sizin için bizlerde arge yapıyor ve deneyimlerimizi arttırıyoruz.
                             Biz de her gün kendimizi güncelliyoruz. Sizin senaryolarınız ve sizin teknolojileriniz ya da
-                            sahip olmak istediğiniz teknolojilerinizle ilgili içerikler ve kurumsal eğitimleri
+                            sahip olmak istediğiniz teknolojilerinizle ilgili içerikler ve kurumsal eğitimlerimizi
                             hazırlıyoruz. Sizin projelerinizde bizler yer alıyor ve sizlere uzun yıllar sürecek iş
-                            planlarımız ile tam destek veriyoruz.
+                            planlarımız ile tam destek veriyoruz. Her türlü dokümantasyonu yüksek standartlarda
+                            hazırlıyoruz.
+                        </p>
+                        <p>
+                            Yazılım geliştirme süreçleri için devsecops araçlarını, entegrasyonlarını, kubernetes
+                            mimarilerinizi, eğitimlerinizi, dokümantasyonlarınızı sizin için ve sizinle birlikte
+                            hazırlıyoruz.
+                            <span class="fs-4 fw-bold">Askeri standartlarda</span> yüksek güvenlikli mimarilerinizin
+                            kurulumlarınızda sizinle birlikte
+                            çalışıyoruz. Kurulumlarınızı gerçekleştiriyor ve tüm ekip üyelerinizi her zaman eğitmeye
+                            devam ediyoruz.
+                        </p>
+                        <p>
+                            Ülkemizin en kritik kaynaklarından birisi de insan kaynakları ve teknoloji  transferi. Bu konuda ülkemiz dışındaki iş ortaklıkları ile artık devam edilemez. Bu söz devlet kaynaklarına ait. Biz bu görüşe uygun olarak ülkemize dünyanın en gelişmiş teknolojilerinde danışmanlık hizmetleri sağlamak için var gücümüzle çalışıyoruz. Her gün 
                         </p>
                     </li>
                     <li>
-                        <h3 class="fw-bold display-6"># Kontrat Hizmetlerimiz</h3>
+                        <h3 class="fw-bold display-6" id="kontrat-hizmetlerimiz"># Kontrat Hizmetlerimiz</h3>
                         <p>Tam gizlilik kapsamında tümüyle sizin içinizde sizin için çalışıyoruz. Tam mesai yapıyor ve
                             aylarca süren çalışmalarda sizin ekibinizdeki personel olarak görev alıyoruz.</p>
-                        <p>Kuracağınız yeni teknolojilerde sizinle birlikte toplantılara katılıyor, deneyimlerimiz ve
+                        <p>Kuracağınız yeni teknolojiler için sizinle birlikte toplantılara katılıyor, deneyimlerimiz ve
                             bilgimizle karar almanıza yardımcı oluyoruz.
                             Bu süre içinde tümüyle size atanmış kaynaklarımız sizin projenizde danışmanlık, hands-on
-                            üretimi, kurulum, teknik dökümantasyon ve eğitim hizmetlerini sunmaktadır. </p>
-                        <p>Kontrat hizmetleri kapsamında bu hizmeti referans olarak kullanmıyoruz.</p>
+                            üretimi, kurulum, teknik dokümantasyon ve eğitim hizmetleri sunmaktadır. </p>
+                        <p class="fs-4 fw-bold">Kontrat hizmetlerini gizlilik nedeni ile referanslarımız arasında
+                            kullanmıyoruz.</p>
+                        <p>Kubernetes, devsecops, cybersecurity gibi tüm iş süreçlerinizde kontratlarımız çerçevesinde
+                            sizinle birlikte çalışıyoruz.
+                            Sizin yazılım projelerinizde pipeline kurulumları, eğitimlerimi, projelerinizdeki
+                            microservis ürünlerinin üretimi, personel eğitimleriniz, yatırımlarınızda toplantılarınıza
+                            katılarak teknik bilgi aktarımı, sistem destek hizmetleri gibi tüm hizmetlerinizde
+                            sizinleyiz. Bu çalışmalar gizlilik kapsamında yapılmaktadır.
+                        </p>
+                        <p>
+                            Bizimle yıllık eğitim paketleri anlaşması yapabilirsiniz. Yıl içerisinde eğitim
+                            paketlerimizden istediklerinizi seçip kullanabilirsiniz. Yıl içerisinde sürekli yeni eğitim
+                            paketlerimiz hazırlanır ya da var olan eğitimlerimiz güncellenir. Bizimle klasik bir eğitim
+                            zamanı geçirmezsiniz. Eğitim modelimizde tam etkileşimli bir model ve sizin senaryolarınız
+                            ile hazırlanır. Eğtim anında etkileşimli yapılır. Bu eğitimi ancak çok deneyimli uzmanlar
+                            sağlayabilir. Biz size en deneyimli eğitimlerin sözünü veriyoruz.
+                        </p>
+                        <p>
+                            Bizimle outsource kaynak üzerinde de anlaşma yapabilirsiniz. Sizin istediğiniz özellikle
+                            ekipleri size sağlıyoruz. Her zaman yedekli insan kaynakları ile projelerinizi sürekli
+                            izliyor, ekiplerimizi sizin konularınıza uygun olarak yetiştirmeye devam ediyoruz. Siz ekip
+                            sorunları ile ilgilenmiyorsunuz. Siz işinizi yönetin ve projelere taleplerini analiz edin.
+                            Biz ihtiyaçlarınıza uygun yazılımların geliştirilmesini sağlıyoruz. Analiz, dokümantasyon,
+                            yazılım geliştirme, güvenlik zaafiyetleri analizleri ve giderilmesi, test süreçleri, yayına
+                            alınması ve sürekli gözlem ve destek ile sistemlerinizin her zaman güvenle çalışmasına
+                            garanti veriyoruz. Geliştirilen yazılımlarınızı sürekli güncel tutma ve güncelleme
+                            işlemlerinizi yerine getiriyoruz. Gizlilik anlaşması kapsamında sizinle analiz
+                            toplantılarına deneyimli uzman ekip arkadaşlarımızın katılmasını sağlıyor, size dedice
+                            ettiğimiz ekip üyelerinin en verimli üretimler yapmasını sağlıyoruz.
+                        </p>
                     </li>
                     <li>
-                        <h3 class="fw-bold display-6"># Yazılım Hizmetlerimiz</h3>
+                        <h3 class="fw-bold display-6" id="yazilim-hizmetlerimiz"># Yazılım Hizmetlerimiz</h3>
                         <p>2000 yılından günümüze <span class="fw-bold">.NET</span> Yetkin İş Ortağı olarak ülkemizde ve
                             dünya çapında yüzlerce büyük
-                            proje deneyimine sahibiz.</p>
-                        <p>Kurumunuzun yazılım projelerinde yer almak isteriz. Geliştirme yetkinliklerimiz içinde kendi
-                            içimizdeki DevSecOps süreçlerine uygun yazılımlar geliştiriyoruz.
-                            Ürün teslimatlarında sizin bildirdiğiniz repolar üzerinden teslimatlar yapıyoruz. Teknik
-                            döküman, eğitim, kullanım kitapları ve destek araçları hazırlıyoruz. </p>
+                            projede deneyimine sahibiz.</p>
+                        <p>Kurumunuzun yazılım projelerinde yer almak isteriz. DevSecOps süreçlerine uygun yazılımlar
+                            geliştiriyoruz.
+                            Microservis mimarisi ile ölçeklenebilir yazılımlarımız sayesinde yüksek trafikli ya da
+                            yüksek iş kapasitesine sahip ürünleri üst düzey standartlarda geliştiriyoruz.
+                            Ürün teslimatlarında sizin bildirdiğiniz repolar üzerinden teslimatlar gitops süreçlerinize
+                            entegre teslimatlar yapıyoruz. Teknik
+                            doküman, eğitim, kullanım kitapları ve destek araçları hazırlıyoruz. </p>
+                        <p>Özellikle enerji sektöründeki iş ortaklıklarımız sayesinde sizler için harika çözümler
+                            üretiyoruz. Sizin ERP sistemlerinize entegre faturalandırla yazılımlarında çok iyiyiz.
+                            Enerji sektörü için taleplerinizi iletin. Sizin çok iyi tanıdığınız çözüm ortaklarımız ile
+                            sizin için çalışalım. Eğitim, dokümantasyon, yazılım geliştirme, servis hizmetleri gibi pek
+                            çok konuda size hizmetler üretebiliriz. Eğer şirketinize özel head-end sistemi geliştirmek
+                            istiyorsanız, sizin için bu sistemleri üretebiliriz. Uzaktan okuma, Tedaş şartnamesine uygun
+                            verilerin işlenmesi, büyük veri yönetimi gibi pek çok konuda sizlere sizin için özel
+                            çözümler üretebiliriz. Sektördeki tüm rakiplerinize fark atabileceğiniz özel çözümler
+                            sağlayabilirsiniz.</p>
+                        <p>Aklınızda çok değerli çözümler var, ama bunları yazabilecek ekibiniz ya da çalışabileceğiniz
+                            partneriniz yok, bizimle iletişime geçin. Sizin için çok çeşitli çözümler üretebiliriz.</p>
+                        <p><span class="fs-4 fw-bold">Akıllı sayaç MASS</span> projeleriniz için sizinle çalışmayı
+                            bekliyoruz. Sahadaki milyonlarca
+                            sayacınızı bile rahatlıkla yönetebileceğiniz harika çözüm önerilerimiz var.</p>
+                        <p>Akıllı sayaç sistemleriniz, çevre ülkelerde kullanılan prepaid ödeme yöntemli su ve enerji
+                            sistemleri için bizimle iletişime geçebilirsiniz. Size yüksek güvenlikli headend sistemleri
+                            geliştirebilir, müşteriniz olan ülkelerdeki headend sistemleri geliştirilmesinde tam destek
+                            sağlayabiliriz.</p>
                     </li>
-                    <li>
-                        <h3 class="fw-bold display-6"># Askeri Standartlarda Kubernetes Hizmetlerimiz </h3>
 
-                        <p>Askeri standartlarda Kubernetes hizmetimiz; yüksek güvenlik, erişilebilirlik, ölçeklenebilirlik ve dayanıklılık gereksinimlerini karşılayan bir altyapının tasarımını, dokümantasyonunu ve uygulamasını içerir. Ayrıca, ekip eğitimleri ve sürekli destekle çözümümüzü daha da güçlendiriyoruz. Gelecekteki güvenlik zaayifetlerine karşı sürekli korumaya devam ediyoruz.</p>
+                    <li>
+                        <h3 class="fw-bold display-6" id="enerji-sektoru-hizmetlerimiz"># Enerji Sektörüne Özel
+                            Hizmetlerimiz</h3>
+                        <p>Akıllı sayaçlar, Tedaşın yeni şartnameleri, değişen enerji sektörü müşteri ve ürünleri özel
+                            çözümlerin üretilmesi fırsatlarını da beraberinde getirmektedir.
+                            <span class="fs-4 fw-bold">MASS kapsamındaki Head-End çözümlerinizi</span> sizinle birlikte
+                            geliştirebilir ve ihtiyacını olan her türlü
+                            hizmeti sağlayabiliriz.
+                        </p>
+                        <p>Uzaktan okuma, görev yükleme, veri parçalama, analizi, büyük veri yönetimi, analizler gibi
+                            çok fazla süreci tek bir alt yapı ile geliştirmenizi sağlayabiliriz.</p>
+                        <p>Saha denetimleri için özel mobil uygulamalar geliştirebiliriz.</p>
+                        <p>Sizin için size özel head-end sisteminizi geliştirebiliriz.</p>
+                        <p>Tüm sektör ürünlerinizin eğitimlerinizi sizlere verebiliriz.</p>
+                        <p>Enerji sektöründe büyük deneyime sahibiz. Sizinle birlikte yapabileceklerimizi biliyoruz ve
+                            çok heyecanlıyız.</p>
+                    </li>
+
+
+
+                    <li>
+                        <h3 class="fw-bold display-6" id="askeri-standartlarda-kubernetes-hizmetlerimiz"># Askeri
+                            Standartlarda Kubernetes Hizmetlerimiz </h3>
+
+                        <p>Askeri standartlarda Kubernetes hizmetimiz; yüksek güvenlik, erişilebilirlik,
+                            ölçeklenebilirlik ve dayanıklılık gereksinimlerini karşılayan bir altyapının tasarımını,
+                            dokümantasyonunu ve uygulamasını içerir. Ayrıca, ekip eğitimleri ve sürekli destekle
+                            çözümümüzü daha da güçlendiriyoruz. Gelecekteki güvenlik zaayifetlerine karşı sürekli
+                            korumaya devam ediyoruz.</p>
 
                         <h4 class="fs-3">1. Güvenlik Önlemleri</h4>
                         <ul>
-                            <li><span class="fs-4">Ağ Güvenliği ve İzolasyonu:</span> Zero Trust mimarisi benimsenir. Ağ trafiği mikro segmentasyon ile ayrıştırılarak yalnızca gerekli hizmetlerin iletişim kurmasına izin verilir.</li>
-                            <li><span class="fs-4">Kimlik ve Erişim Yönetimi (IAM):</span> Role-based Access Control (RBAC) ile erişim hakları titizlikle yönetilir. Multi-Factor Authentication (MFA) entegrasyonu sağlanır.</li>
-                            <li><span class="fs-4">Veri Şifreleme:</span> Hareket halindeki veriler TLS ile, duran veriler ise ETCD üzerinden şifreli olarak saklanır.</li>
-                            <li><span class="fs-4">Güvenlik Politikaları:</span> Pod Security Policies (PSP), Network Policies ve Security Context yapılandırmaları ile Kubernetes kaynakları için kapsamlı güvenlik sağlanır.</li>
-                            <li><span class="fs-4">Denetim ve İzleme:</span> Kubernetes Audit Logs etkinleştirilir ve güvenlik olayları sürekli olarak izlenip alarm mekanizmalarıyla desteklenir.</li>
+                            <li><span class="fs-4">Ağ Güvenliği ve İzolasyonu:</span> Zero Trust mimarisi benimsenir. Ağ
+                                trafiği mikro segmentasyon ile ayrıştırılarak yalnızca gerekli hizmetlerin iletişim
+                                kurmasına izin verilir.</li>
+                            <li><span class="fs-4">Kimlik ve Erişim Yönetimi (IAM):</span> Role-based Access Control
+                                (RBAC) ile erişim hakları titizlikle yönetilir. Multi-Factor Authentication (MFA)
+                                entegrasyonu sağlanır.</li>
+                            <li><span class="fs-4">Veri Şifreleme:</span> Hareket halindeki veriler TLS ile, duran
+                                veriler ise ETCD üzerinden şifreli olarak saklanır.</li>
+                            <li><span class="fs-4">Güvenlik Politikaları:</span> Pod Security Policies (PSP), Network
+                                Policies ve Security Context yapılandırmaları ile Kubernetes kaynakları için kapsamlı
+                                güvenlik sağlanır.</li>
+                            <li><span class="fs-4">Denetim ve İzleme:</span> Kubernetes Audit Logs etkinleştirilir ve
+                                güvenlik olayları sürekli olarak izlenip alarm mekanizmalarıyla desteklenir.</li>
                         </ul>
-                        
+
 
                         <h4 class="fs-3">2. Yüksek Erişilebilirlik ve Dayanıklılık</h4>
                         <ul>
-                            <li><span class="fs-4">Cluster Yedekliliği:</span> Multi-master ve multi-worker düğümleri, yüksek erişilebilirlik (HA) sağlamak amacıyla yedekli ve dengeli bir şekilde dağıtılır.</li>
-                            <li><span class="fs-4">Multi-Region ve Multi-Cluster Yapılandırması:</span> Kritik uygulamalar için birden fazla coğrafi bölgede yedekleme ve felaket kurtarma (Disaster Recovery) planları titizlikle tasarlanır.</li>
-                            <li><span class="fs-4">Yük Dengeleyici (Load Balancer):</span> İç ve dış yük dengeleme ihtiyaçlarını karşılamak için güvenilir ve ölçeklenebilir çözümler uygulanır.</li>
+                            <li><span class="fs-4">Cluster Yedekliliği:</span> Multi-master ve multi-worker düğümleri,
+                                yüksek erişilebilirlik (HA) sağlamak amacıyla yedekli ve dengeli bir şekilde dağıtılır.
+                            </li>
+                            <li><span class="fs-4">Multi-Region ve Multi-Cluster Yapılandırması:</span> Kritik
+                                uygulamalar için birden fazla coğrafi bölgede yedekleme ve felaket kurtarma (Disaster
+                                Recovery) planları titizlikle tasarlanır.</li>
+                            <li><span class="fs-4">Yük Dengeleyici (Load Balancer):</span> İç ve dış yük dengeleme
+                                ihtiyaçlarını karşılamak için güvenilir ve ölçeklenebilir çözümler uygulanır.</li>
                         </ul>
-                        
+
 
                         <h4 class="fs-3">3. Standartlara Uygunluk</h4>
                         <ul>
-                            <li><span class="fs-4">Askeri Standartlar:</span> NATO, STANAG ve yerel askeri standartlar (örneğin, Türkiye için MSB direktifleri) doğrultusunda kurulum ve yapılandırmalar gerçekleştirilir.</li>
-                            <li><span class="fs-4">Regülasyon Uyumluluğu:</span> Kişisel veriler veya askeri hassas veriler üzerinde çalışılması durumunda, GDPR, KVKK ve benzeri yasal düzenlemelere tam uyum sağlanır.</li>
+                            <li><span class="fs-4">Askeri Standartlar:</span> NATO, STANAG ve yerel askeri standartlar
+                                (örneğin, Türkiye için MSB direktifleri) doğrultusunda kurulum ve yapılandırmalar
+                                gerçekleştirilir.</li>
+                            <li><span class="fs-4">Regülasyon Uyumluluğu:</span> Kişisel veriler veya askeri hassas
+                                veriler üzerinde çalışılması durumunda, GDPR, KVKK ve benzeri yasal düzenlemelere tam
+                                uyum sağlanır.</li>
                         </ul>
-                        
+
 
                         <h4 class="fs-3">4. İzleme ve Güncelleme</h4>
                         <ul>
-                            <li><span class="fs-4">Güvenlik İzleme:</span> Zabbix, Prometheus ve Grafana gibi araçlar kullanılarak sistem performansı ve güvenlik açıkları sürekli olarak izlenir.</li>
-                            <li><span class="fs-4">Otomatik Güncellemeler:</span> Kubernetes bileşenleri ve konteyner imajları için güvenlik yamaları düzenli bir şekilde uygulanır.</li>
-                            <li><span class="fs-4">Kontrol ve Yönetim:</span> ArgoCD veya FluxCD gibi GitOps araçlarıyla yapılandırmalar etkin bir şekilde yönetilir.</li>
+                            <li><span class="fs-4">Güvenlik İzleme:</span> Zabbix, Prometheus ve Grafana gibi araçlar
+                                kullanılarak sistem performansı ve güvenlik açıkları sürekli olarak izlenir.</li>
+                            <li><span class="fs-4">Otomatik Güncellemeler:</span> Kubernetes bileşenleri ve konteyner
+                                imajları için güvenlik yamaları düzenli bir şekilde uygulanır.</li>
+                            <li><span class="fs-4">Kontrol ve Yönetim:</span> ArgoCD veya FluxCD gibi GitOps araçlarıyla
+                                yapılandırmalar etkin bir şekilde yönetilir.</li>
                         </ul>
-                        
+
 
                         <h4 class="fs-3">5. Altyapı Sertifikasyonları</h4>
                         <ul>
-                            <li><span class="fs-4">Donanım Sertifikasyonu:</span> Kullanılan fiziksel sunucuların askeri standartlara uygun sertifikalara sahip olması sağlanır.</li>
-                            <li><span class="fs-4">Container Güvenliği:</span> Container imajları, Trivy veya Clair gibi araçlarla taranarak yalnızca güvenilir registrylerden yüklenir.</li>
+                            <li><span class="fs-4">Donanım Sertifikasyonu:</span> Kullanılan fiziksel sunucuların askeri
+                                standartlara uygun sertifikalara sahip olması sağlanır.</li>
+                            <li><span class="fs-4">Container Güvenliği:</span> Container imajları, Trivy veya Clair gibi
+                                araçlarla taranarak yalnızca güvenilir registrylerden yüklenir.</li>
                         </ul>
-                        
+
                         <h4 class="fs-3">6. Askeri Standartlarda İzleme Loglama ve Alarm</h4>
                         <ul>
-                            <li><span class="fs-4">İzleme ve Alarm Tetikleme:</span> Prometheus + Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Fluentd/Fluent Bit</li>
+                            <li><span class="fs-4">İzleme ve Alarm Tetikleme:</span> Prometheus + Grafana, ELK Stack
+                                (Elasticsearch, Logstash, Kibana), Fluentd/Fluent Bit</li>
                             <li><span class="fs-4">Güvenlik:</span> OPA, Trivy, Clair, Pod Security Policies (PSP)</li>
-                            <li><span class="fs-4">Log İzleme ve Yönetim:</span> Zabbix, Auditd, Kubernetes Audit Logs, Syslog/Rsyslog</li>
+                            <li><span class="fs-4">Log İzleme ve Yönetim:</span> Zabbix, Auditd, Kubernetes Audit Logs,
+                                Syslog/Rsyslog</li>
                             <li><span class="fs-4">GitOps ve Sürekli Dağıtım:</span> ArgoCD, FluxCD</li>
-                            <li><span class="fs-4">Yedeklilik ve HA:</span> Multi-master, Multi-worker yapı, Load Balancer, Multi-Region/Cluster</li>
+                            <li><span class="fs-4">Yedeklilik ve HA:</span> Multi-master, Multi-worker yapı, Load
+                                Balancer, Multi-Region/Cluster</li>
                             <li><span class="fs-4">Güvenlik ve Uyum:</span> HSM, GDPR/KVKK/Regülasyon Uyumu</li>
                         </ul>
-                                               
+
                         <h4 class="fs-3">6. Askeri Standartlarda Rancher ile Multi Worker Kubernetes </h4>
                         <ul>
 
-                            <li><span class="fs-4">İzleme ve Alarm Tetikleme:</span> Prometheus + Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Fluentd/Fluent Bit</li>
+                            <li><span class="fs-4">İzleme ve Alarm Tetikleme:</span> Prometheus + Grafana, ELK Stack
+                                (Elasticsearch, Logstash, Kibana), Fluentd/Fluent Bit</li>
                             <li><span class="fs-4">Güvenlik:</span> OPA, Trivy, Clair, Pod Security Policies (PSP)</li>
-                            <li><span class="fs-4">Log İzleme ve Yönetim:</span> Zabbix, Auditd, Kubernetes Audit Logs, Syslog/Rsyslog</li>
+                            <li><span class="fs-4">Log İzleme ve Yönetim:</span> Zabbix, Auditd, Kubernetes Audit Logs,
+                                Syslog/Rsyslog</li>
                             <li><span class="fs-4">GitOps ve Sürekli Dağıtım:</span> ArgoCD, FluxCD</li>
-                            <li><span class="fs-4">Yedeklilik ve HA:</span> Multi-master, Multi-worker yapı, Load Balancer, Multi-Region/Cluster</li>
+                            <li><span class="fs-4">Yedeklilik ve HA:</span> Multi-master, Multi-worker yapı, Load
+                                Balancer, Multi-Region/Cluster</li>
                             <li><span class="fs-4">Güvenlik ve Uyum:</span> HSM, GDPR/KVKK/Regülasyon Uyumu</li>
 
                         </ul>
 
                         <h4 class="fs-3">7. Eğitim ve Süreçler</h4>
                         <ul>
-                            <li><span class="fs-4">Personel Eğitimi:</span> Sistemi yönetecek personel, askeri gereksinimlere uygun olarak Kubernetes ve güvenlik konularında kapsamlı bir eğitim alır.</li>
-                            <li><span class="fs-4">Dokümantasyon:</span> Yapılandırmalar, prosedürler ve güncellemeler eksiksiz ve detaylı bir şekilde dokümante edilir.</li>
+                            <li><span class="fs-4">Personel Eğitimi:</span> Sistemi yönetecek personel, askeri
+                                gereksinimlere uygun olarak Kubernetes ve güvenlik konularında kapsamlı bir eğitim alır.
+                            </li>
+                            <li><span class="fs-4">Dokümantasyon:</span> Yapılandırmalar, prosedürler ve güncellemeler
+                                eksiksiz ve detaylı bir şekilde dokümante edilir.</li>
                         </ul>
-                        
+
                     </li>
                 </ul>
             </div>
@@ -476,10 +655,30 @@
                         hazırlıyoruz.</i></strong>
             </p>
 
+            <ul class="left-menu fs-5">
+                <li><a href="#kubernetes-egitimi">Kubernetes Eğitimi</a></li>
+                <li><a href="#red-hat-egitimi">Red Hat Eğitimi</a></li>
+                <li><a href="#dev-ops-egitimi">DevSecOps</a></li>
+                <li><a href="#yapay-zeka-egitimi">Yapay Zeka</a></li>
+                <li><a href="#proje-yonetimi-egitimi">Proje Yönetimi Yöntemleri</a></li>
+                <li><a href="#enerji-sektoru-egitimi">Enerji Sektörü Özel Eğitimi</a></li>
+                <li><a href="#microservis-egitimi">Microservis Mimarilerinde Yazılım Geliştirme ve Yönetimi</a></li>
+                <li><a href="#ileri-seviye-siber-guvenlik-egitimi">İleri Seviye Siber Güvenlik Eğitimleri</a></li>
+                <li><a href="#yapay-zeka-destekli-musteri-deneyimi-gelistirme-egitimi">Yapay Zeka Destekli Müşteri
+                        Deneyimi Geliştirme</a></li>
+                <li><a href="#npl-sohbet-botlari-egitimi">NLP ile sohbet botları</a></li>
+                <li><a href="#yapay-zeka-destekli-insan-kaynaklari-egitimi">Yapay Zeka Destekli İnsan Kaynakları
+                        Çözümleri</a></li>
+                <li><a href="#akilli-sehir-yonetimi-planlamada-yapay-zeka">Akıllı Şehir Yönetimi ve Planlamada Yapay
+                        Zeka</a></li>
+            </ul>
+
+
             <div style="text-align: left;">
                 <ul>
                     <li>
-                        <h3 class="fw-bold display-6"># Kubernetes: Modern Altyapılarınız İçin Güçlü ve Kalıcı Çözümler</h3>
+                        <h3 class="fw-bold display-6" id="kubernetes-egitimi"># Kubernetes: Modern Altyapılarınız İçin
+                            Güçlü ve Kalıcı Çözümler</h3>
 
                         <p>🔹 <span class="fw-bold">Kurumsal Kubernetes Kurulumlarında Güçlü Destek:</span>
                             Altyapınızı bir adım öteye taşımak için yanınızdayız! <span class="fw-bold">Kurumsal
@@ -519,7 +718,8 @@
                     </li>
 
                     <li>
-                        <h3 class="fw-bold display-6"># Red Hat: Güçlü Altyapılar İçin İleri Seviye Eğitim ve Destek
+                        <h3 class="fw-bold display-6" id="red-hat-egitimi"># Red Hat: Güçlü Altyapılar İçin İleri Seviye
+                            Eğitim ve Destek
                         </h3>
                         <p>🔹 Red Hat altyapınız için tüm seviyelerde <span class="fw-bold">uygulamalı çalışmalar</span>
                             ve <span class="fw-bold">kurumsal eğitim</span> içeriklerimizle yanınızdayız. Deneyimli
@@ -535,7 +735,7 @@
                     </li>
 
                     <li>
-                        <h3 class="fw-bold display-6"># DevSecOps</h3>
+                        <h3 class="fw-bold display-6" id="dev-ops-egitimi"># DevSecOps</h3>
                         <p>🚀 <strong>Geliştirme</strong>, <strong>Güvenlik</strong> ve <strong>Operasyon</strong> artık
                             bir arada, hem de <strong>Kubernetes mimarisi</strong> üzerinde! 🌐</p>
                         <p>⚙️ İleri seviye DevOps konuları ve onlarca araç ile yüzleşin. Zor ama etkileyici bir
@@ -545,7 +745,7 @@
 
 
                     <li>
-                        <h3 class="fw-bold display-6"># Yapay Zeka 🚀</h3>
+                        <h3 class="fw-bold display-6" id="yapay-zeka-egitimi"># Yapay Zeka 🚀</h3>
                         <p>
                             🌟 Kurumsal yapay zeka iş modelleri ve uçtan uca tam otomasyon süreçleriyle işlerinizde
                             <strong>ölçülebilir kalite ve hız farkı</strong> yaratıyoruz.
@@ -558,7 +758,7 @@
                     </li>
 
                     <li class="mb-4">
-                        <h3 class="fw-bold display-6"># Proje Yönetimi Yöntemleri 🚀</h3>
+                        <h3 class="fw-bold display-6" id="proje-yonetimi-egitimi"># Proje Yönetimi Yöntemleri 🚀</h3>
                         <p>Tüm proje yönetimi yaklaşımları birbirinden değerli olup, birisi diğerinin yerine geçemez.
                             Her biri, belirli bir sorunun çözümü için geliştirilmiştir.</p>
                         <ul class="list-unstyled mt-3">
@@ -577,7 +777,7 @@
                     </li>
 
                     <li>
-                        <h3 class="fw-bold display-6"># Enerji Sektörü Özel Eğitimi 🔌</h3>
+                        <h3 class="fw-bold display-6" id="enerji-sektoru-egitimi"># Enerji Sektörü Özel Eğitimi 🔌</h3>
                         <p>
                             🚀 <strong>Sizin sorunlarınızı biliyoruz.</strong> Size özel, sektöre uyumlu eğitim
                             içeriklerimiz ile yanınızdayız!
@@ -607,7 +807,8 @@
                     </li>
 
                     <li>
-                        <h3 class="fw-bold display-6"># Microservis Mimarilerinde Yazılım Geliştirme ve Yönetimi</h3>
+                        <h3 class="fw-bold display-6" id="microservis-egitimi"># Microservis Mimarilerinde Yazılım
+                            Geliştirme ve Yönetimi</h3>
                         <p>Microservis teknolojilerini aşağıdaki diller ile nasıl geliştirebileceğinizi öğrenin:</p>
                         <ul class="list-group">
                             <li class="list-group-item d-flex align-items-center">
@@ -633,21 +834,23 @@
                     </li>
 
                     <li>
-                        <h3 class="fw-bold display-6"># İleri Seviye Siber Güvenlik Eğitimleri 🔒</h3>
+                        <h3 class="fw-bold display-6" id="ileri-seviye-siber-guvenlik-egitimi"># İleri Seviye Siber
+                            Güvenlik Eğitimleri 🔒</h3>
                         <p>Tüm kurum çalışanları için temel güvenlik farkındalığı</p>
                         <p>Güvenlik Uzmanları ve Sistem Mimarları için ileri teknikler</p>
                         <p>Yöneticiler için stratejik güvenlik yönetimi</p>
                     </li>
 
                     <li>
-                        <h3 class="fw-bold display-6"># Yapay Zeka Destekli Müşteri Deneyimi Geliştirme</h3>
+                        <h3 class="fw-bold display-6" id="yapay-zeka-destekli-musteri-deneyimi-gelistirme-egitimi">#
+                            Yapay Zeka Destekli Müşteri Deneyimi Geliştirme</h3>
                         <p>KVKK GDPR uyumlu yapay zeka geliştirme</p>
                         <p>Microservisler ile uyum içinde müşteri temsilcileri ile yapay zeka destekli müşteri deneyimi
                         </p>
                     </li>
 
                     <li>
-                        <h3 class="fw-bold display-6"># NLP ile sohbet botları</h3>
+                        <h3 class="fw-bold display-6" id="npl-sohbet-botlari-egitimi"># NLP ile sohbet botları</h3>
                         <p>Whatsapp ile entegre kişiye özel kurumsal asistanlar</p>
                         <p>Kişiye özel ürün kataloglarının üretilmesi ve tek tek müşteriye özel online pdf üretimi,
                             gönderimi ve müşteri iletişimlerinin yönetilmesi</p>
@@ -663,7 +866,8 @@
                             desteği</p>
                     </li>
                     <li>
-                        <h3 class="fw-bold display-6"># Yapay Zeka Destekli İnsan Kaynakları Çözümleri</h3>
+                        <h3 class="fw-bold display-6" id="yapay-zeka-destekli-insan-kaynaklari-egitimi"># Yapay Zeka
+                            Destekli İnsan Kaynakları Çözümleri</h3>
                         <p>İşe alım süreçlerinde dönüşüm</p>
                         <p>Çalışan performansları ve yetkinliklerin optimizasyonu</p>
                         <p>Etik veri güvenliği</p>
@@ -672,7 +876,8 @@
                             geliştirme</p>
                     </li>
                     <li>
-                        <h3 class="fw-bold display-6"># Akıllı Şehir Yönetimi ve Planlamada Yapay Zeka</h3>
+                        <h3 class="fw-bold display-6" id="akilli-sehir-yonetimi-planlamada-yapay-zeka"># Akıllı Şehir
+                            Yönetimi ve Planlamada Yapay Zeka</h3>
                         <p>Ulaşım ve Trafik Yönetimi</p>
                         <p>Akıllı Aydınlatma Yönetimi</p>
                         <p>Akıllı Tarihi Şehir</p>
